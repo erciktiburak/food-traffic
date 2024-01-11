@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-between">
-      <Link className="text-primary font-semibold text-2xl" href="">
+    <div className="hidden md:flex items-center justify-between">
+    <Link className="text-primary font-semibold text-2xl" href={"/"}>
         OS Pizza
       </Link>
 
@@ -19,6 +19,6 @@ export default function Header() {
           Login
         </Link>
       </nav>
-    </header>
+    </div>
   );
 }

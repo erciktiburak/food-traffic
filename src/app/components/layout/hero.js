@@ -5,10 +5,12 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="py-12">
-        <h1 className="text-4xl font-semibold">
-          Where Flavor Meets Freshness: Pizza Passion!
+        <h1 className="text-4xl font-semibold leading-normal">
+          Everything <br /> is better
+          <br /> with a&nbsp;
+          <span className="text-primary">Pizza </span>
         </h1>
-        <p className="my-4 text-gray-500">
+        <p className="my-6 text-gray-500 text-sm">
           We invite all pizza enthusiasts to this delightful feast filled with
           exquisite aromas because when it comes to pizza, we are the ultimate
           destination!
