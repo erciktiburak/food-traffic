@@ -17,6 +17,14 @@ export default function HomeMenu() {
         </h3>
         <h2 className="text-primary font-bold text-4xl italic">Menu</h2>
       </div>
+      <div className="grid grid-cols-3 gap-4">
+        <div className="bg-gray-300 p-4 rounded-lg text-center">
+            <img src="" alt="pizza" />
+            <h4 className="font-semibold my-2">Pepperoni Pizza</h4>
+            <p className="text-gray-500 text-sm">Lorem Ipsum is simply dummy text</p>
+            <button className="bg-primary"></button>
+        </div>
+      </div>
     </section>
   );
 }
